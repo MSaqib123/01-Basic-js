@@ -106,35 +106,28 @@ sdfkasdjfk
 // // 2.  take 2 number from user and  make   //addition , substraction , multi , divi
 
 
-let num1 = prompt("Enter the first number:"));
-let num2 = prompt("Enter the second number:"));
+//parseInt("234");  //
+//Number("2234")
 
-console.log(num1 + num2);
+let num1 = parseInt(prompt("Enter the first number:")); // rreturn  stirng  "2"
+let num2 = Number(prompt("Enter the second number:")); // return   stirng  "4"
+
+console.log(num1 + num2);  
 console.log(num1 - num2);
 console.log(num1 * num2);
-console.log(num1 + num2);
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(num1 / num2);
 
 
 
 
 // 3.  take 1  confirm value from user and make it  message base on result
-
-
 // Ask the user a Yes/No question
-var answer = prompt("are you muslim?");
-
-console.log(answer);
+var answer = confirm("are you muslim?"); //true , false
+if(answer == true){
+    console.log("Yes i am muslime");
+}
+else{
+    console.log("No farig");
+}
 
 
