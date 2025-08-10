@@ -119,3 +119,11 @@ console.log("Jani you age is : " + age);
 // cl( uV + " * " + 1 + " = " + (uV*1));
 // cl( uV + " * " + 1 + " = " + (uV*1));
 
+
+
+//------ Calculator -----------
+// 2 
+// * , = , /
+// 
+// if()
+
