@@ -22,39 +22,23 @@
 // 2X2 = 4
 
 
-let val5 = Number(prompt("enter the number"));
-if (val5 = '5');
+let table = Number(prompt("enter the number"));
+// if (val5 = '5');
 
 
+if (table > 1 && table <= 100) {
+    console.log(table + " * " + 1 + " = " + (table * 1));
+    console.log(table + " * " + 2 + " = " + (table * 2));
+    console.log(table + " * " + 3 + " = " + (table * 3));
+    console.log(table + " * " + 4 + " = " + (table * 4));
+    console.log(table + " * " + 5 + " = " + (table * 5));
+    console.log(table + " * " + 6 + " = " + (table * 6));
+    console.log(table + " * " + 7 + " = " + (table * 7));
+    console.log(table + " * " + 8 + " = " + (table * 8));
+    console.log(table + " * " + 9 + " = " + (table * 9));
+    console.log(table + " * " + 10 + " = " + (table * 10));
 
-console.log(5 + " * " + 1 + " = " + (5 * 1));
-console.log(5 + " * " + 2 + " = " + (5 * 2));
-console.log(5 + " * " + 3 + " = " + (5 * 3));
-console.log(5 + " * " + 4 + " = " + (5 * 4));
-console.log(5 + " * " + 5 + " = " + (5 * 5));
-console.log(5 + " * " + 6 + " = " + (5 * 6));
-console.log(5 + " * " + 7 + " = " + (5 * 7));
-console.log(5 + " * " + 8 + " = " + (5 * 8));
-console.log(5 + " * " + 9 + " = " + (5 * 9));
-console.log(5 + " * " + 10 + " = " + (5 * 10));
-
-
-
-
-
-let val6 = Number(prompt("enter the number"));
-if (val6 = '6')
-
-    console.log(6 + " * " + 1 + " = " + (6 * 1));
-console.log(6 + " * " + 2 + " = " + (6 * 2));
-console.log(6 + " * " + 3 + " = " + (6 * 3));
-console.log(6 + " * " + 4 + " = " + (6 * 4));
-console.log(6 + " * " + 5 + " = " + (6 * 5));
-console.log(6 + " * " + 6 + " = " + (6 * 6));
-console.log(6 + " * " + 7 + " = " + (6 * 7));
-console.log(6 + " * " + 8 + " = " + (6 * 8));
-console.log(6 + " * " + 9 + " = " + (6 * 9));
-console.log(6 + " * " + 10 + " = " + (6 * 10));
+}
 
 
 
