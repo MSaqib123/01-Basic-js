@@ -38,7 +38,7 @@
    // console.log(table + " * " + 9 + " = " + (table * 9));
    // console.log(table + " * " + 10 + " = " + (table * 10));
 
-}
+// }
 
 
 
@@ -77,3 +77,9 @@ else if (operator === "/") {
 else {
     console.log("good");
 }
+
+
+
+
+
+
