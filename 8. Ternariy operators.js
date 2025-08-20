@@ -22,21 +22,21 @@
 // 2X2 = 4
 
 
-let table = Number(prompt("enter the number"));
+//let table = Number(prompt("enter the number"));
 // if (val5 = '5');
 
 
-if (table > 1 && table <= 100) {
-    console.log(table + " * " + 1 + " = " + (table * 1));
-    console.log(table + " * " + 2 + " = " + (table * 2));
-    console.log(table + " * " + 3 + " = " + (table * 3));
-    console.log(table + " * " + 4 + " = " + (table * 4));
-    console.log(table + " * " + 5 + " = " + (table * 5));
-    console.log(table + " * " + 6 + " = " + (table * 6));
-    console.log(table + " * " + 7 + " = " + (table * 7));
-    console.log(table + " * " + 8 + " = " + (table * 8));
-    console.log(table + " * " + 9 + " = " + (table * 9));
-    console.log(table + " * " + 10 + " = " + (table * 10));
+//if (table > 1 && table <= 100) {
+  //  console.log(table + " * " + 1 + " = " + (table * 1));
+    ///console.log(table + " * " + 2 + " = " + (table * 2));
+    //console.log(table + " * " + 3 + " = " + (table * 3));
+ //   console.log(table + " * " + 4 + " = " + (table * 4));
+   // console.log(table + " * " + 5 + " = " + (table * 5));
+  //  console.log(table + " * " + 6 + " = " + (table * 6));
+   // console.log(table + " * " + 7 + " = " + (table * 7));
+   // console.log(table + " * " + 8 + " = " + (table * 8));
+   // console.log(table + " * " + 9 + " = " + (table * 9));
+   // console.log(table + " * " + 10 + " = " + (table * 10));
 
 }
 
@@ -47,11 +47,33 @@ if (table > 1 && table <= 100) {
 
 
 //------ Calculator -----------
-// 2
-// * , = , /
+// 2 value    numb1 ,numb2  prompt
+// * , = , /    prompt   *
 //
 // if()
 
 
+let num1 = Number(prompt("Enter first the number"));
+let operator = prompt("Enter operator(+,-,*,/)");
+let num2 = Number(prompt("Enter second the number"));
 
 
+if (operator === "+") {
+    console.log(num1 + num2);
+}
+
+else if (operator === "-") {
+    console.log(num1 - num2);
+}
+
+else if (operator === "*") {
+    console.log(num1 * num2);
+}
+
+else if (operator === "/") {
+    console.log(num1 / num2);
+}
+
+else {
+    console.log("good");
+}

@@ -50,25 +50,64 @@
 //===== 2. String ====== 
 //let year = 2022342342;
 
-let days = prompt("Entery your Day");
 
-switch (days) {
-    case "Sunday":  //
-        console.log("Off Day");
+//============= Task =================
+// month .  
+// Jan  --> 29 , 30 ,31
+// Feb ==>  
+
+let month = prompt("Entery your Month");
+
+switch (month) {
+    case "Jan":  //
+        console.log("31 Days");
         break;
 
-    case "Monday":
-    case "Tuesday":
-    case "Wed":
-    case "Thir":
-    case "Friday":
-        console.log("Working days");
+        case "Feb":  //
+        console.log("29 Days");
+        break;
+        
+        case "March":  //
+        console.log("31 Days");
         break;
 
-    case "Saterday":  //
-        console.log("Tafri days");
+        case "April":  //
+        console.log("30 Days");
         break;
-    
+
+        case "May":  //
+        console.log("31 Days");
+        break;
+
+        case "June":  //
+        console.log("30 Days");
+        break;
+
+        case "July":  //
+        console.log("31 Days");
+        break;
+
+        case "Agust":  //
+        console.log("31 Days");
+        break;
+
+        case "September":  //
+        console.log("30 Days");
+        break;
+
+        case "October":  //
+        console.log("31 Days");
+        break;
+
+        case "November":  //
+        console.log("30 Days");
+        break;
+
+
+        case "December":  //
+        console.log("31 Days");
+        break;
+
     default:
         console.log("Your are out of days this day does not exist in Life");
         break;
@@ -76,12 +115,6 @@ switch (days) {
 
 
 
-
-
-//============= Task =================
-// month .  
-// Jan  --> 29 , 30 ,31
-// Feb ==>  
 
 
 // let year = 2019;
